@@ -17,15 +17,27 @@ from main import Add
 
 class calc(unittest.TestCase):
     def setUp(self):
+    	"""
+    	Setup the test cases
+    	"""
         pass
 
     def tearDown(self):
+    	"""
+    	Teardown the test cases
+    	"""
         pass
     
     def test_add_true(self):
+    	"""
+    	Test to check if the add returns correct value
+    	"""
         self.assertEqual(10, Add(3, 7))
 
     def test_add_false(self):
+    	"""
+    	Test to check if the add wont' return incorrect value
+    	"""
         self.assertNotEqual(100, Add(3, 7))
 
 
