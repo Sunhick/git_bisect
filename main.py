@@ -26,7 +26,7 @@ def Sub(a, b):
     """
     return the sub of a, b
     """
-    return sub(a, b)
+    return a - b
 
 if __name__ == "__main__":
     main(sys.argv)
