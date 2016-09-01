@@ -46,5 +46,11 @@ class calc(unittest.TestCase):
         """
     	self.assertEqual(0, Sub(3, 3))
 
+    def test_sub_false(self):
+        """
+        test to check if sub returns correct value
+        """
+        self.assertNotEqual(10, Sub(38, 38))
+
 if __name__ == "__main__":
     unittest.main()
