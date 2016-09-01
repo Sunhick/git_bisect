@@ -17,6 +17,9 @@ def main(argv):
     pass
 
 def Add(a, b):
+	"""
+	returns the sum of a, b
+	"""
     return a + b
 
 if __name__ == "__main__":
