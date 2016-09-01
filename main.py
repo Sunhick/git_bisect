@@ -22,5 +22,8 @@ def Add(a, b):
 	"""
     return a - b
 
+def Sub(a, b):
+	return sub(a, b)
+
 if __name__ == "__main__":
     main(sys.argv)
