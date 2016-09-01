@@ -13,7 +13,7 @@ __email__ = "suba5417@colorado.edu"
 import sys
 import unittest
 
-from main import Add
+from main import Add, Sub
 
 class calc(unittest.TestCase):
     def setUp(self):
@@ -40,6 +40,8 @@ class calc(unittest.TestCase):
     	"""
         self.assertNotEqual(100, Add(3, 7))
 
+    def test_sub_true(self):
+    	self.assertEqual(0, Sub(3, 3))
 
 if __name__ == "__main__":
     unittest.main()
