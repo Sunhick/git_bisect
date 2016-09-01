@@ -17,16 +17,16 @@ def main(argv):
     pass
 
 def Add(a, b):
-	"""
-	returns the sum of a, b
-	"""
+    """
+    returns the sum of a, b
+    """
     return a - b
 
 def Sub(a, b):
-	"""
-	return the sub of a, b
-	"""
-	return sub(a, b)
+    """
+    return the sub of a, b
+    """
+    return sub(a, b)
 
 if __name__ == "__main__":
     main(sys.argv)
