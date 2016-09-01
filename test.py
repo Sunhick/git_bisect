@@ -1,5 +1,9 @@
 #!/usr/bin/python
 
+"""
+	Unit testing for the functions in main
+"""
+
 __author__ = "Sunil"
 __copyright__ = "Copyright 2015"
 __license__ = "GNU License"
