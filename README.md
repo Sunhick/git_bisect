@@ -16,8 +16,8 @@ $ git bisect bad 0a1e7cd830489d594b74d5c5a0cb66fadeb88370
 $ git bisect run python test.py 
 ```
 
-```sh
 output:
+```sh
 $ git bisect run python test.py
 ...
 
